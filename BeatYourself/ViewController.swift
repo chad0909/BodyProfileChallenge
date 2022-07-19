@@ -8,12 +8,28 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    
+    @IBOutlet weak var startButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        UIDesign()
     }
 
+    
+    func UIDesign(){
+        startButton.clipsToBounds = true
+        startButton.layer.cornerRadius = 10
+        startButton.layer.maskedCorners = CACornerMask(arrayLiteral: .layerMinXMinYCorner, .layerMaxXMinYCorner, .layerMinXMaxYCorner, .layerMaxXMaxYCorner)
+    }
+    
+    
+    
+    
+    
+    
 
+    
 }
 

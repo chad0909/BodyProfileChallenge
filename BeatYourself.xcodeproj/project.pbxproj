@@ -14,6 +14,10 @@
 		E5059F2A286F1BC800065869 /* BeatYourself.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E5059F28286F1BC800065869 /* BeatYourself.xcdatamodeld */; };
 		E5059F2C286F1BC900065869 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5059F2B286F1BC900065869 /* Assets.xcassets */; };
 		E5059F2F286F1BC900065869 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5059F2D286F1BC900065869 /* LaunchScreen.storyboard */; };
+		E5059F37286F2A9600065869 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5059F36286F2A9600065869 /* MainViewController.swift */; };
+		E513E8B428731A42008DBF72 /* FinishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E513E8B328731A42008DBF72 /* FinishViewController.swift */; };
+		E563B7682871886D00C05CFC /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E563B7672871886D00C05CFC /* PopupViewController.swift */; };
+		E563B76A2871E71900C05CFC /* BackgroundMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E563B7692871E71900C05CFC /* BackgroundMusic.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		E5059F2B286F1BC900065869 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5059F2E286F1BC900065869 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5059F30286F1BC900065869 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5059F36286F2A9600065869 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		E513E8B328731A42008DBF72 /* FinishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishViewController.swift; sourceTree = "<group>"; };
+		E563B7672871886D00C05CFC /* PopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupViewController.swift; sourceTree = "<group>"; };
+		E563B7692871E71900C05CFC /* BackgroundMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BackgroundMusic.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +74,10 @@
 				E5059F2D286F1BC900065869 /* LaunchScreen.storyboard */,
 				E5059F30286F1BC900065869 /* Info.plist */,
 				E5059F28286F1BC800065869 /* BeatYourself.xcdatamodeld */,
+				E5059F36286F2A9600065869 /* MainViewController.swift */,
+				E563B7672871886D00C05CFC /* PopupViewController.swift */,
+				E563B7692871E71900C05CFC /* BackgroundMusic.mp3 */,
+				E513E8B328731A42008DBF72 /* FinishViewController.swift */,
 			);
 			path = BeatYourself;
 			sourceTree = "<group>";
@@ -130,6 +142,7 @@
 			files = (
 				E5059F2F286F1BC900065869 /* LaunchScreen.storyboard in Resources */,
 				E5059F2C286F1BC900065869 /* Assets.xcassets in Resources */,
+				E563B76A2871E71900C05CFC /* BackgroundMusic.mp3 in Resources */,
 				E5059F27286F1BC800065869 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,7 +157,10 @@
 				E5059F24286F1BC800065869 /* ViewController.swift in Sources */,
 				E5059F20286F1BC800065869 /* AppDelegate.swift in Sources */,
 				E5059F2A286F1BC800065869 /* BeatYourself.xcdatamodeld in Sources */,
+				E513E8B428731A42008DBF72 /* FinishViewController.swift in Sources */,
 				E5059F22286F1BC800065869 /* SceneDelegate.swift in Sources */,
+				E5059F37286F2A9600065869 /* MainViewController.swift in Sources */,
+				E563B7682871886D00C05CFC /* PopupViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,8 +313,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationLandscapeLeft";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,8 +343,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationLandscapeLeft";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
