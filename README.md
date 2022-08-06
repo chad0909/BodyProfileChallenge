@@ -27,9 +27,14 @@ Play Start to play the game.
 
 #Reference
 https://blog.5anniversary.dev/22
+
 https://newbedev.com/swift-swift-dismiss-2-view-controller-code-example
+
 https://stackoverflow.com/questions/41044854/pausing-the-game-in-swift
+
 https://zeddios.tistory.com/269
+
 https://velog.io/@minji0801/iOS-Swift-%EB%AA%A8%EB%8B%AC-dismiss%ED%95%9C-%ED%9B%84-CollectionView-%EB%8D%B0%EC%9D%B4%ED%84%B0-Reload%ED%95%98%EA%B8%B0-NotificationCenter
+
 https://infinitt.tistory.com/359
 
